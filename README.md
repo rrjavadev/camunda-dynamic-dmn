@@ -1,8 +1,10 @@
 # Camunda-dynamic-dmn
 An example spring-boot project that dynamically generates a dmn file via a REST endpoint.<br/>
 <p>To start the application run:</p>
-``` mvn clean package spring-boot:run```
 
+```
+mvn clean package spring-boot:run
+```
 <p> The POST endpoint <b>http://localhost:8085/generate_and_deploy</b> generates and deploys a dmn file in a running Camunda process engine.</p>
 <p>The dmn rules are generated on the fly using external variables. This can be enhanced to obtain the data fetched from the database.</p>
 
