@@ -1,4 +1,4 @@
-# Camunda-dynamic-cmn
+# Camunda-dynamic-dmn
 An example spring-boot project that dynamically generates a dmn file via a REST endpoint.<br/>
 <p>To start the application run:</p>
 ``` mvn clean package spring-boot:run```
